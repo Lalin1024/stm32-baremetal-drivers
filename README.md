@@ -54,12 +54,15 @@ CMSIS files can be obtained from:
 
 ## Project Structure
 
+```text
 stm32-baremetal-drivers/
-├── adc/ # ADC bare-metal driver
-├── uart/ # UART bare-metal driver
-├── i2c/ # I2C bare-metal driver
-├── timer/ # Timer and delay driver
-├── interrupt/ # EXTI and timer interrupt handling
-├── CMSIS/ # CMSIS core and device headers
-├── main.c # Application entry point
+├── adc/        # ADC bare-metal driver
+├── uart/       # UART bare-metal driver
+├── i2c/        # I2C bare-metal driver
+├── timer/      # Timer and delay driver
+├── interrupt/  # EXTI and timer interrupt handling
+├── CMSIS/      # CMSIS core and device headers
+├── main.c      # Application entry point
 └── README.md
+```
+
